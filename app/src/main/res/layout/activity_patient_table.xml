@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tables.PatientTable">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Patient Name" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Organ Needed" />
+
+    <EditText
+        android:id="@+id/editText31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Guardian Name" />
+
+    <EditText
+        android:id="@+id/editText32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Patient Contact" />
+
+    <EditText
+        android:id="@+id/editText33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Place" />
+
+    <EditText
+        android:id="@+id/editText34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Patient Blood Group" />
+
+    <EditText
+        android:id="@+id/editText36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Guardian Contact Number" />
+
+    <EditText
+        android:id="@+id/editText35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Hospital Name" />
+
+    <EditText
+        android:id="@+id/editText37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_8x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Hospital Contact" />
+
+    <EditText
+        android:id="@+id/editText39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonpatTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_64x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_64x"
+        android:text="@android:string/ok" />
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tables.TableDoctor">
+
+    <TextView
+        android:id="@+id/textViewtd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTexttd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewtd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTexttd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewtd3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTexttd3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewtd4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTexttd4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewtd5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTexttd5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewtd6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTexttd6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewtd7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editTexttd7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_16x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/backDocTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:text="Back" />
+</LinearLayout>

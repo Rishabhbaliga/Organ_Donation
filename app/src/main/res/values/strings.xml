@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Organ Donation</string>
+    <string name="thankyou">Thank You for registering as a donor. Please make a note of your donor ID.\nKeep it with you when you visit your doctor for verification</string>
+    <string name="getwellsoon">Your request for organ has been registered. Please make a note of your patient ID.\nKeep it with you when you for all further steps</string>
+</resources>

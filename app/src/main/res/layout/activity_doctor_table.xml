@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tables.DoctorTable">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:gravity="center_horizontal"
+        android:text="Doctor Name"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:gravity="center_horizontal"
+        android:text="Doctor Phone"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:gravity="center_horizontal"
+        android:text="Doctor email"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:gravity="center_horizontal"
+        android:text="Place"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_32x"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_64x"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:layout_marginRight="@dimen/dimen_64x"
+        android:text="@android:string/ok" />
+</LinearLayout>

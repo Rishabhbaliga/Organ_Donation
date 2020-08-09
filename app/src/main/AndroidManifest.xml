@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.organ_donation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tables.PatientTable"></activity>
+        <activity android:name=".tables.DoctorTable" />
+        <activity android:name=".tables.DonorTable_admin" />
+        <activity android:name=".tables.DonorTable" />
+        <activity android:name=".Register_Handle.Doctors_handle" />
+        <activity android:name=".patDonor" />
+        <activity android:name=".signups.findDonor" />
+        <activity android:name=".thank_yous.Thank_You_pat" />
+        <activity android:name=".Register_Handle.Patient_Page_2" />
+        <activity android:name=".Register_Handle.Patient_Page" />
+        <activity android:name=".Pending_Requests" />
+        <activity android:name=".signups.Doctor_signup" />
+        <activity
+            android:name=".signups.Donor_signup"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".Lists.All_Doctors" />
+        <activity android:name=".Lists.All_Patients" />
+        <activity android:name=".Lists.All_Donors" />
+        <activity android:name=".Admin_Pannel" />
+        <activity android:name=".Logins.Admin_Login" />
+        <activity android:name=".thank_yous.ThankYou" />
+        <activity android:name=".Register_Handle.Donor_Page_2" />
+        <activity android:name=".Logins.Donor_Login" />
+        <activity android:name=".Logins.Doctor_Login" />
+        <activity android:name=".landing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signups.patient_sign_up"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Patient_Login"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".Register_Handle.Donor_Page" />
+    </application>
+
+</manifest>

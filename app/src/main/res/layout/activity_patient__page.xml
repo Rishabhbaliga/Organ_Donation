@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_Handle.Patient_Page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:text="Name" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_8x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:text="Age" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_8x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:text="Guardian Name" />
+
+        <EditText
+            android:id="@+id/editText17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_8x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:text="Patient Contact Number" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_8x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:text="Place" />
+
+        <EditText
+            android:id="@+id/editText18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:text="Guardian Contact" />
+
+            <EditText
+                android:id="@+id/editTextpat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:text="Next" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

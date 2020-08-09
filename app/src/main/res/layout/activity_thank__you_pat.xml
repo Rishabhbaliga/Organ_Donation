@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".thank_yous.ThankYou">
+
+
+    <ImageView
+        android:id="@+id/imageViewtp"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        app:srcCompat="@drawable/thankyou" />
+
+    <TextView
+        android:id="@+id/textViewtp19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:gravity="center_horizontal"
+        android:text="@string/getwellsoon"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewtp20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16x"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttontp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_64x"
+        android:layout_marginTop="@dimen/dimen_32x"
+        android:layout_marginRight="@dimen/dimen_64x"
+        android:text="Home" />
+</LinearLayout>

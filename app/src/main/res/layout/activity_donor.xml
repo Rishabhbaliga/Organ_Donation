@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_Handle.Donor_Page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_64x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Name"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="39dp" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="23dp"
+                tools:layout_editor_absoluteY="223dp" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_8x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Age"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="51dp" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Doctor Name"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_8x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Doctor Contact Number" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="phone"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_8x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Place" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Date of Signing"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="27dp"
+                tools:layout_editor_absoluteY="355dp" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="date"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="390dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Emergency Contact number"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="457dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Contact_Person_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="phone"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="484dp" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_64x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_48x"
+                android:text="Next Page -->"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="632dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

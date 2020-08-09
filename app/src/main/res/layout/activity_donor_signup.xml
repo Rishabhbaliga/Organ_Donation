@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signups.Donor_signup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textViewd9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_8x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/editTextd8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewd10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Age" />
+
+            <EditText
+                android:id="@+id/editTextd10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textViewd11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Phone No" />
+
+            <EditText
+                android:id="@+id/editTextd11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textViewd12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Date Of Birth" />
+
+            <EditText
+                android:id="@+id/editTextd12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/textViewd13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Donor Id" />
+
+            <EditText
+                android:id="@+id/editTextd13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewd14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/editTextd17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textViewd18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Password" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextd18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:password="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textViewd15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:gravity="center_horizontal"
+                android:text="Address" />
+
+            <EditText
+                android:id="@+id/editTextd14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonDonor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_64x"
+                android:layout_marginTop="@dimen/dimen_16x"
+                android:layout_marginRight="@dimen/dimen_64x"
+                android:text="Sign In" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

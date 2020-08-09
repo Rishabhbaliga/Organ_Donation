@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_Handle.Donor_Page_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Donating Organ"
+                android:textSize="18sp" />
+
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A +ve" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A -ve" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B +ve" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B -ve" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AB +ve" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AB -ve" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="O +ve" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="O -ve" />
+            </RadioGroup>
+
+            <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:gravity="center_horizontal"
+            android:text="Donor's Contact Number:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:ems="10"
+            android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Blood Group"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Any  Organ" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kidney" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Liver" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pancreas" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Heart" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eyes" />
+            </RadioGroup>
+
+            <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_64x"
+            android:layout_marginTop="@dimen/dimen_16x"
+            android:layout_marginRight="@dimen/dimen_64x"
+            android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
